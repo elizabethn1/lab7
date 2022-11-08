@@ -1,7 +1,8 @@
 function init(){
   function myEventFunction(){
-    alert('Elizabeth Ng:');
-    //alert('Elizabeth Ng: ' + button);
+    //alert('Elizabeth Ng:');
+    var b = document.getElementById('entrybutton').name;
+    alert('Elizabeth Ng: ' + b);
   }
   var button = document.getElementById('entrybutton');
   button.addEventListener('click', myEventFunction);
