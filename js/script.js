@@ -1,12 +1,9 @@
 function init(){
-  alert('Elizabeth Ng:');
+  function myEventFunction(){
+    alert('Elizabeth Ng:');
+  }
+  var button = document.getElementById('entrybutton');
+  button.addEventListener('click', myEventFunction);
+
 }
-
-var button = document.getElementById('entrybutton');
-
-button.addEventListener('click', init);
-
-
-
-
 window.addEventListener('load', init);
