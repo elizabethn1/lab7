@@ -1,7 +1,7 @@
 function init(){
   function myEventFunction(){
     //alert('Elizabeth Ng:');
-    var b = document.getElementById('entrybutton').name;
+    var b = document.getElementById('entrybutton').placeholder;
     alert('Elizabeth Ng: ' + b);
   }
   var button = document.getElementById('entrybutton');
