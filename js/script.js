@@ -1,9 +1,10 @@
 function init(){
-//add your javascrip between these two lines of code
- 
+  alert('Elizabeth Ng:');
+}
 
+var button = document.getElementById('entrybutton');
 
-
+button.addEventListener('click', init);
 
 
 
